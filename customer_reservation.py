@@ -1,6 +1,5 @@
 class Reservation:
 
-
     def __init__(self, number, name):
         self._event  = name
         self._number = number

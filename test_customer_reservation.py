@@ -7,7 +7,6 @@ class TestCustomerReservation:
     def reservation(self):
         return Reservation('123', 'ESAF')
 
-
     @pytest.fixture
     def customer(self, reservation):
        return Customer('Julian', reservation)
