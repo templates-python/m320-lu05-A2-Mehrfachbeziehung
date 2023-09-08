@@ -1,5 +1,7 @@
 import pytest
+
 from customer_reservation import Customer, Reservation
+
 
 class TestCustomerReservation:
 
@@ -9,7 +11,7 @@ class TestCustomerReservation:
 
     @pytest.fixture
     def customer(self, reservation):
-       return Customer('Julian', reservation)
+        return Customer('Julian', reservation)
 
     # Test für Reservation-Objekt. Noch ohne Zuweisung eines Customer-Objekts
     def test_reservation_number(self, reservation):
@@ -30,7 +32,3 @@ class TestCustomerReservation:
 
     def test_reservation_from_customer(self, customer, reservation):
         assert reservation.customer is customer
-
-
-
-
