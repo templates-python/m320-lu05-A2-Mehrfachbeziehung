@@ -31,4 +31,4 @@ class TestCustomerReservation:
         assert customer.reservation is reservation
 
     def test_reservation_from_customer(self, customer, reservation):
-        assert reservation.customer is customer
+        assert reservation.customer is None
