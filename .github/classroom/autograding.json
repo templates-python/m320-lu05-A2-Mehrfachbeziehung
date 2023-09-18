@@ -1,74 +1,67 @@
 {
-  "tests": [
-    {
-      "name": "test",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_reservation_number",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_reservation_number\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_reservation_event",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_reservation_event\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_reservation_without_customer",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_reservation_without_customer\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_customer_name",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_customer_name\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_customers_reservation",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_customers_reservation\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "test_reservation_from_customer",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_reservation_from_customer\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    }
-  ]
+"tests": [
+{"name": "test",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_reservation_number",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_reservation_number\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_reservation_event",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_reservation_event\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_reservation_without_customer",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_reservation_without_customer\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_customer_name",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_customer_name\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_customers_reservation",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_customers_reservation\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_reservation_from_customer",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_reservation_from_customer\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+}
+]
 }
